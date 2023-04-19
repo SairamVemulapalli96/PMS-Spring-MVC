@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>PMS-Spring-MVC | Login Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+<link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css"
 	rel="stylesheet">
 <!--  custom CSS should come later  -->
 <link rel="stylesheet"
@@ -96,6 +96,7 @@
 									<td><input type="password" id="password" name="password"
 										value="" size="30" required placeholder="Password" /></td>
 								</tr>
+								<!--  
 								<tr>
 
 									<td><label for="usertype"><b>User Type :</b> </label></td>
@@ -108,6 +109,7 @@
 
 									</td>
 								</tr>
+								-->
 								<tr>
 									<td colspan="2" align="center"><input
 										class="btn btn-primary" type="submit" value="Login" /> <input
@@ -118,6 +120,7 @@
 							</table>
 						</form>
 					</div>
+					<!--  
 					<div class="register">
 						<table
 							class="table table-striped table-hover table-bordered 
@@ -131,6 +134,7 @@
 							</tr>
 						</table>
 					</div>
+					-->
 					<%@include file="footer.jsp"%>
 				</div>
 			</div>
